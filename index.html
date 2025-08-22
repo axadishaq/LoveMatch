@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>LoveMatch - Find Your Perfect Match</title>
+
+      <link
+         rel="icon"
+         href="https://cdn-icons-png.flaticon.com/128/1405/1405110.png"
+         type="image/x-icon" />
+
+      <!-- Bootstrap CSS from jsdelivr -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+
+      <!-- Tailwind CSS from jsdelivr -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+         rel="stylesheet" />
+
+      <!-- Font Awesome Icons -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="#">LoveMatch</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#testimonials"
+                        >Success Stories</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="btn btn-primary ms-lg-3" href="#">Sign Up</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero position-relative" id="home">
+         <div class="container py-5">
+            <div class="row align-items-center min-vh-100">
+               <div class="col-lg-6 hero-content">
+                  <h1>Find Your <span>Perfect Match</span> Today</h1>
+                  <p>
+                     Join thousands of singles who have found love through our
+                     personalized matching algorithm. Your soulmate is just a
+                     click away.
+                  </p>
+                  <div class="d-flex flex-wrap">
+                     <a href="#" class="btn btn-primary me-3 mb-3"
+                        >Get Started Free</a
+                     >
+                     <a href="#" class="btn btn-outline mb-3">Learn More</a>
+                  </div>
+                  <div class="mt-4">
+                     <div class="d-flex align-items-center">
+                        <div class="d-flex">
+                           <img
+                              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHBpY3R1cmVzfGVufDB8fDB8fHww"
+                              class="rounded-circle img-fluid"
+                              width="40"
+                              height="30"
+                              alt="User" />
+                           <img
+                              src="https://cdn.pixabay.com/photo/2017/10/06/20/27/wedding-2824517_640.jpg"
+                              class="rounded-circle ms-n2"
+                              width="40"
+                              height="30"
+                              alt="User" />
+                           <img
+                              src="https://cdn.pixabay.com/photo/2023/08/08/09/21/couple-8176869_640.jpg"
+                              class="rounded-circle ms-n2"
+                              width="40"
+                              height="30"
+                              alt="User" />
+                        </div>
+                        <span class="ms-2 text-secondary"
+                           ><strong>10,000+</strong> happy couples matched</span
+                        >
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 text-center hero-img">
+                  <img
+                     src="https://images.unsplash.com/photo-1511405889574-b01de1da5441?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvdXBsZXxlbnwwfHwwfHx8MA%3D%3D"
+                     class="img-fluid"
+                     alt="Couple illustration" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="py-5 section-padding" id="features">
+         <div class="container py-5">
+            <div class="text-center mb-5">
+               <h2 class="section-title">Why Choose LoveMatch?</h2>
+               <p class="text-muted">
+                  Discover why thousands of singles trust us to find meaningful
+                  connections
+               </p>
+            </div>
+
+            <div class="row g-4">
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-heart"></i>
+                     </div>
+                     <h3>Smart Matching</h3>
+                     <p>
+                        Our advanced algorithm analyzes your preferences,
+                        interests, and personality traits to suggest compatible
+                        matches.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-shield-alt"></i>
+                     </div>
+                     <h3>Safe & Secure</h3>
+                     <p>
+                        Your privacy matters. We implement the highest security
+                        standards to keep your personal information safe.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-comments"></i>
+                     </div>
+                     <h3>Real Connections</h3>
+                     <p>
+                        With verified profiles and active moderation, we ensure
+                        you meet genuine people looking for real relationships.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-map-marker-alt"></i>
+                     </div>
+                     <h3>Location-Based</h3>
+                     <p>
+                        Find matches near you with our intelligent
+                        location-based filtering to make dating convenient.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-calendar-alt"></i>
+                     </div>
+                     <h3>Event Invitations</h3>
+                     <p>
+                        Get access to exclusive singles events and mixers in
+                        your area to meet potential matches in person.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="highlight-box text-center">
+                     <div class="icon mx-auto">
+                        <i class="fas fa-headset"></i>
+                     </div>
+                     <h3>24/7 Support</h3>
+                     <p>
+                        Our dedicated support team is always available to assist
+                        you with any questions or concerns.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section class="py-5 bg-light">
+         <div class="container py-5">
+            <div class="text-center mb-5">
+               <h2 class="section-title">How It Works</h2>
+               <p class="text-muted">
+                  Finding your perfect match has never been easier
+               </p>
+            </div>
+
+            <div class="row align-items-center">
+               <div class="col-lg-6 mb-4 mb-lg-0">
+                  <img
+                     src="https://plus.unsplash.com/premium_photo-1720192861897-b503ea9471b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTd8fGFwcCUyMGludGVyZmFjZXxlbnwwfHwwfHx8MA%3D%3D"
+                     class="img-fluid rounded shadow-sm"
+                     alt="LoveMatch app interface" />
+               </div>
+               <div class="col-lg-6">
+                  <div class="d-flex mb-4">
+                     <div class="me-4">
+                        <div
+                           class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center"
+                           style="width: 50px; height: 50px">
+                           1
+                        </div>
+                     </div>
+                     <div>
+                        <h4>Create Your Profile</h4>
+                        <p>
+                           Sign up in minutes and build your detailed profile to
+                           showcase your personality.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="d-flex mb-4">
+                     <div class="me-4">
+                        <div
+                           class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center"
+                           style="width: 50px; height: 50px">
+                           2
+                        </div>
+                     </div>
+                     <div>
+                        <h4>Browse Matches</h4>
+                        <p>
+                           Our algorithm suggests compatible matches based on
+                           your preferences and personality.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="d-flex mb-4">
+                     <div class="me-4">
+                        <div
+                           class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center"
+                           style="width: 50px; height: 50px">
+                           3
+                        </div>
+                     </div>
+                     <div>
+                        <h4>Connect & Chat</h4>
+                        <p>
+                           Send messages, share interests, and get to know your
+                           matches better.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="d-flex">
+                     <div class="me-4">
+                        <div
+                           class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center"
+                           style="width: 50px; height: 50px">
+                           4
+                        </div>
+                     </div>
+                     <div>
+                        <h4>Meet In Person</h4>
+                        <p>
+                           When you're ready, arrange a date and potentially
+                           meet your perfect match!
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="py-5 section-padding" id="testimonials">
+         <div class="container py-5">
+            <div class="text-center mb-5">
+               <h2 class="section-title">Success Stories</h2>
+               <p class="text-muted">
+                  Hear from couples who found love through LoveMatch
+               </p>
+            </div>
+
+            <div class="row">
+               <div class="col-md-6 col-lg-4">
+                  <div class="testimonial-card">
+                     <div class="d-flex align-items-center mb-4">
+                        <img
+                           src="https://cdn.pixabay.com/photo/2017/10/06/20/27/wedding-2824517_640.jpg"
+                           class="avatar me-3"
+                           alt="Sarah & John" />
+                        <div>
+                           <h5 class="mb-0">Sarah & John</h5>
+                           <small class="text-muted"
+                              >Together for 2 years</small
+                           >
+                        </div>
+                     </div>
+                     <p>
+                        "We both had almost given up on finding love until we
+                        matched on LoveMatch. After our first date, we knew
+                        there was something special. Now we're engaged and
+                        planning our wedding!"
+                     </p>
+                     <div class="text-warning">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 col-lg-4">
+                  <div class="testimonial-card">
+                     <div class="d-flex align-items-center mb-4">
+                        <img
+                           src="https://cdn.pixabay.com/photo/2019/12/15/13/01/merry-christmas-4697055_640.jpg"
+                           class="avatar me-3"
+                           alt="Rachel & Mike" />
+                        <div>
+                           <h5 class="mb-0">Rachel & Mike</h5>
+                           <small class="text-muted">Together for 1 year</small>
+                        </div>
+                     </div>
+                     <p>
+                        "I was skeptical about online dating until my friend
+                        convinced me to try LoveMatch. Within a week, I
+                        connected with Mike, and the rest is history. The
+                        matching algorithm really works!"
+                     </p>
+                     <div class="text-warning">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 col-lg-4">
+                  <div class="testimonial-card">
+                     <div class="d-flex align-items-center mb-4">
+                        <img
+                           src="https://cdn.pixabay.com/photo/2023/08/08/09/21/couple-8176869_640.jpg"
+                           class="avatar me-3"
+                           alt="David & Emma" />
+                        <div>
+                           <h5 class="mb-0">David & Emma</h5>
+                           <small class="text-muted"
+                              >Together for 3 years</small
+                           >
+                        </div>
+                     </div>
+                     <p>
+                        "We lived just 2 miles apart but might never have met if
+                        not for LoveMatch. We had so much in common but traveled
+                        in different circles. Now we're married with a beautiful
+                        baby girl!"
+                     </p>
+                     <div class="text-warning">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="text-center mt-5">
+               <a href="#" class="btn btn-primary">Read More Success Stories</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="py-5 bg-light section-padding" id="pricing">
+         <div class="container py-5">
+            <div class="text-center mb-5">
+               <h2 class="section-title">Membership Plans</h2>
+               <p class="text-muted">
+                  Choose the perfect plan for your dating journey
+               </p>
+            </div>
+
+            <div class="row">
+               <div class="col-md-4 mb-4 mb-md-0">
+                  <div class="pricing-card">
+                     <div class="text-center mb-4">
+                        <h3>Basic</h3>
+                        <div class="price">Free <span>/ forever</span></div>
+                     </div>
+
+                     <ul class="feature-list">
+                        <li>Create your profile</li>
+                        <li>Browse potential matches</li>
+                        <li>Limited messaging</li>
+                        <li>5 daily match suggestions</li>
+                        <li>Basic search filters</li>
+                     </ul>
+
+                     <div class="text-center">
+                        <a href="#" class="btn btn-outline w-100"
+                           >Sign Up Free</a
+                        >
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4 mb-4 mb-md-0">
+                  <div class="pricing-card featured">
+                     <div class="text-center mb-4">
+                        <h3>Premium</h3>
+                        <div class="price">$29.99 <span>/ month</span></div>
+                     </div>
+
+                     <ul class="feature-list">
+                        <li>All Basic features</li>
+                        <li>Unlimited messaging</li>
+                        <li>20 daily match suggestions</li>
+                        <li>Advanced search filters</li>
+                        <li>See who likes your profile</li>
+                        <li>Premium badges</li>
+                        <li>Priority customer support</li>
+                     </ul>
+
+                     <div class="text-center">
+                        <a href="#" class="btn btn-primary w-100"
+                           >Get Started</a
+                        >
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="pricing-card">
+                     <div class="text-center mb-4">
+                        <h3>Platinum</h3>
+                        <div class="price">$49.99 <span>/ month</span></div>
+                     </div>
+
+                     <ul class="feature-list">
+                        <li>All Premium features</li>
+                        <li>Profile boost (2x visibility)</li>
+                        <li>Unlimited match suggestions</li>
+                        <li>Message read receipts</li>
+                        <li>Access to exclusive events</li>
+                        <li>Personal dating coach</li>
+                        <li>Compatibility reports</li>
+                        <li>VIP customer support</li>
+                     </ul>
+
+                     <div class="text-center">
+                        <a href="#" class="btn btn-secondary w-100"
+                           >Go Platinum</a
+                        >
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="py-5">
+         <div class="container py-4">
+            <div class="row text-center">
+               <div class="col-md-3 col-6 mb-4 mb-md-0">
+                  <h2 class="text-primary fw-bold">1M+</h2>
+                  <p class="text-muted mb-0">Active Users</p>
+               </div>
+
+               <div class="col-md-3 col-6 mb-4 mb-md-0">
+                  <h2 class="text-primary fw-bold">10K+</h2>
+                  <p class="text-muted mb-0">Successful Matches</p>
+               </div>
+
+               <div class="col-md-3 col-6">
+                  <h2 class="text-primary fw-bold">95%</h2>
+                  <p class="text-muted mb-0">Satisfaction Rate</p>
+               </div>
+
+               <div class="col-md-3 col-6">
+                  <h2 class="text-primary fw-bold">24/7</h2>
+                  <p class="text-muted mb-0">Customer Support</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="py-5 section-padding" id="contact">
+         <div class="container py-5">
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="text-center mb-5">
+                     <h2 class="section-title">Get In Touch</h2>
+                     <p class="text-muted">
+                        Have questions? We're here to help you on your journey
+                        to find love.
+                     </p>
+                  </div>
+
+                  <div class="contact-form">
+                     <form>
+                        <div class="row g-3">
+                           <div class="col-md-6">
+                              <input
+                                 type="text"
+                                 class="form-control"
+                                 placeholder="Your Name"
+                                 required />
+                           </div>
+
+                           <div class="col-md-6">
+                              <input
+                                 type="email"
+                                 class="form-control"
+                                 placeholder="Your Email"
+                                 required />
+                           </div>
+
+                           <div class="col-12">
+                              <input
+                                 type="text"
+                                 class="form-control"
+                                 placeholder="Subject" />
+                           </div>
+
+                           <div class="col-12">
+                              <textarea
+                                 class="form-control"
+                                 rows="5"
+                                 placeholder="Your Message"
+                                 required></textarea>
+                           </div>
+
+                           <div class="col-12 text-center">
+                              <button
+                                 type="submit"
+                                 class="btn btn-primary px-4 py-2">
+                                 Send Message
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section
+         class="py-5"
+         style="
+            background: linear-gradient(
+               135deg,
+               var(--primary) 0%,
+               var(--secondary) 100%
+            );
+         ">
+         <div class="container py-4">
+            <div class="row align-items-center">
+               <div class="col-lg-8 text-lg-start text-center mb-4 mb-lg-0">
+                  <h2 class="text-white mb-2">
+                     Ready to Find Your Perfect Match?
+                  </h2>
+                  <p class="text-white opacity-75 mb-0">
+                     Join thousands of singles already finding love on
+                     LoveMatch.
+                  </p>
+               </div>
+               <div class="col-lg-4 text-lg-end text-center">
+                  <a href="#" class="btn btn-light px-4 py-2">Start For Free</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 mb-5 mb-lg-0">
+                  <a class="navbar-brand text-white mb-4 d-block" href="#"
+                     >LoveMatch</a
+                  >
+                  <p class="text-white opacity-75">
+                     We help singles find meaningful connections and lasting
+                     relationships through our personalized matching system.
+                  </p>
+                  <div class="social-links mt-4">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+               </div>
+
+               <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                  <h4 class="footer-heading">Company</h4>
+                  <a href="#" class="footer-link">About Us</a>
+                  <a href="#" class="footer-link">Careers</a>
+                  <a href="#" class="footer-link">Press</a>
+                  <a href="#" class="footer-link">Blog</a>
+                  <a href="#" class="footer-link">Contact</a>
+               </div>
+
+               <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                  <h4 class="footer-heading">Features</h4>
+                  <a href="#" class="footer-link">How It Works</a>
+                  <a href="#" class="footer-link">Premium</a>
+                  <a href="#" class="footer-link">Success Stories</a>
+                  <a href="#" class="footer-link">Dating Tips</a>
+                  <a href="#" class="footer-link">Events</a>
+               </div>
+
+               <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                  <h4 class="footer-heading">Support</h4>
+                  <a href="#" class="footer-link">Help Center</a>
+                  <a href="#" class="footer-link">Safety Tips</a>
+                  <a href="#" class="footer-link">Community Guidelines</a>
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                  <a href="#" class="footer-link">Terms of Service</a>
+               </div>
+
+               <div class="col-lg-2 col-md-4">
+                  <h4 class="footer-heading">Download</h4>
+                  <a href="#" class="mb-3 d-inline-block">
+                     <img
+                        src="https://cdn.jsdelivr.net/gh/themeselection/ts-assets/promo/app-store-badge.svg"
+                        alt="App Store"
+                        height="40" />
+                  </a>
+                  <a href="#" class="d-inline-block">
+                     <img
+                        src="https://cdn.jsdelivr.net/gh/themeselection/ts-assets/promo/google-play-badge.svg"
+                        alt="Google Play"
+                        height="40" />
+                  </a>
+               </div>
+            </div>
+
+            <div class="text-center copyright">
+               <p class="mb-0">&copy; 2023 LoveMatch. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script>
+         // Navbar scroll effect
+         window.addEventListener("scroll", function () {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) {
+               navbar.classList.add("navbar-scrolled");
+            } else {
+               navbar.classList.remove("navbar-scrolled");
+            }
+         });
+
+         // Smooth scrolling for anchor links
+         document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+               e.preventDefault();
+
+               const targetId = this.getAttribute("href");
+               if (targetId === "#") return;
+
+               const targetElement = document.querySelector(targetId);
+               if (targetElement) {
+                  const navbarHeight =
+                     document.querySelector(".navbar").offsetHeight;
+                  const targetPosition =
+                     targetElement.getBoundingClientRect().top +
+                     window.pageYOffset -
+                     navbarHeight;
+
+                  window.scrollTo({
+                     top: targetPosition,
+                     behavior: "smooth",
+                  });
+
+                  // Close mobile menu if open
+                  const navbarCollapse =
+                     document.querySelector(".navbar-collapse");
+                  if (navbarCollapse.classList.contains("show")) {
+                     navbarCollapse.classList.remove("show");
+                  }
+               }
+            });
+         });
+      </script>
+   </body>
+</html>
