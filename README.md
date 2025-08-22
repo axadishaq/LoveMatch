@@ -41,7 +41,7 @@ LoveMatch is a modern, responsive dating website designed to help singles find m
 ### Installation
 ```bash
 # Clone or download the project
-git clone [<repository-url>](https://github.com/axadishaq/LoveMatch.git)
+git clone https://github.com/axadishaq/LoveMatch.git
 cd LoveMatch
 
 # Open in browser
@@ -102,6 +102,7 @@ If you like this project, please consider:
 
 [![Follow on GitHub](https://img.shields.io/github/followers/axadishaq?style=social)](https://github.com/axadishaq)
 [![Twitter Follow](https://img.shields.io/twitter/follow/axadishaq?style=social)](https://twitter.com/axadishaq)
+
 
 
 
