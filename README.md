@@ -63,51 +63,6 @@ open index.html
 ### No Setup Required!
 All dependencies are CDN-based - just open `index.html` and start exploring!
 
-## 🎨 Customization Guide
-
-### Color Scheme
-```css
-:root {
-    --primary: #ff6b6b;      /* Main brand color */
-    --primary-dark: #ee5253; /* Darker shade */
-    --secondary: #5f27cd;    /* Accent color */
-    --light: #f9f9f9;        /* Light background */
-    --dark: #222f3e;         /* Dark text */
-    --gray: #8395a7;         /* Secondary text */
-}
-```
-
-### Content Updates
-- ✏️ Edit text content in `index.html`
-- 🖼️ Replace images with your assets
-- 💰 Modify pricing and features
-- 🎯 Update testimonials and statistics
-
-## 📊 Performance & Metrics
-
-| Metric | Value | Status |
-|--------|-------|--------|
-| **Active Users** | 1M+ | 📈 Growing |
-| **Successful Matches** | 10K+ | 💕 Successful |
-| **Satisfaction Rate** | 95% | ⭐ Excellent |
-| **Support Availability** | 24/7 | 🛡️ Always On |
-
-## 🎯 Target Audience
-
-- 👩‍💼👨‍💼 Professionals (25-45 years)
-- 💑 Singles seeking serious relationships
-- 🌟 Individuals tired of traditional dating apps
-- 🤝 People looking for meaningful connections
-
-## 💡 Why Choose LoveMatch?
-
-| Benefit | Description | Icon |
-|---------|-------------|------|
-| **Trust & Safety** | Verified profiles and secure platform | 🛡️ |
-| **Quality Matches** | Advanced algorithm for compatibility | 🎯 |
-| **User Experience** | Intuitive interface and smooth navigation | ✨ |
-| **Active Community** | Real success stories and engaged users | 👥 |
-
 ## 🔧 Technical Architecture
 
 ### File Structure
@@ -118,21 +73,6 @@ ve match/
 ├── 📖 README.md       # Project documentation
 └── 🖼️ images/        # Asset directory (optional)
 ```
-
-### Browser Compatibility
-- ✅ Chrome (latest)
-- ✅ Firefox (latest) 
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-
-## 🚀 Deployment Options
-
-| Platform | Instructions | Difficulty |
-|----------|-------------|------------|
-| **Local** | Open `index.html` | ⭐ Easy |
-| **GitHub Pages** | Push to gh-pages | ⭐⭐ Medium |
-| **Netlify** | Drag & drop deploy | ⭐⭐ Medium |
-| **Vercel** | Git integration | ⭐⭐⭐ Advanced |
 
 ## 📝 License
 
@@ -174,3 +114,4 @@ If you like this project, please consider:
 
 [![Follow on GitHub](https://img.shields.io/github/followers/axadishaq?style=social)](https://github.com/axadishaq)
 [![Twitter Follow](https://img.shields.io/twitter/follow/axadishaq?style=social)](https://twitter.com/axadishaq)
+
