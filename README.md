@@ -6,18 +6,6 @@
 
 LoveMatch is a modern, responsive dating website designed to help singles find meaningful connections through an intuitive interface and smart matching features.
 
-## ✨ Features
-
-| Feature | Description | Icon |
-|---------|-------------|------|
-| **🤖 Smart Matching** | Advanced compatibility algorithm based on preferences and personality | 💕 |
-| **📱 Responsive Design** | Beautiful mobile-first design that works on all devices | 📲 |
-| **👤 User Profiles** | Detailed profile creation with photos and personal information | 📝 |
-| **🔒 Secure Messaging** | Private and secure communication system | 💌 |
-| **📍 Location-Based** | Find matches near your location | 🌍 |
-| **🎉 Event Invitations** | Access to exclusive singles events | 🎊 |
-| **🛡️ 24/7 Support** | Dedicated customer support team | ⚡ |
-
 ## 🎨 Design & Technology Stack
 
 **Frontend Technologies:**
@@ -114,4 +102,5 @@ If you like this project, please consider:
 
 [![Follow on GitHub](https://img.shields.io/github/followers/axadishaq?style=social)](https://github.com/axadishaq)
 [![Twitter Follow](https://img.shields.io/twitter/follow/axadishaq?style=social)](https://twitter.com/axadishaq)
+
 
